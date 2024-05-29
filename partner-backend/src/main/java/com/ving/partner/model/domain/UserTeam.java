@@ -7,12 +7,12 @@ import java.util.Date;
 import lombok.Data;
 
 /**
- * 标签
- * @TableName tag
+ * 用户队伍关系
+ * @TableName user_team
  */
-@TableName(value ="tag")
+@TableName(value ="user_team")
 @Data
-public class Tag implements Serializable {
+public class UserTeam implements Serializable {
     /**
      * id
      */
@@ -20,24 +20,19 @@ public class Tag implements Serializable {
     private Long id;
 
     /**
-     * 标签名称
-     */
-    private String tagName;
-
-    /**
-     * 用户 id
+     * 用户id
      */
     private Long userId;
 
     /**
-     * 父标签 id
+     * 队伍id
      */
-    private Long parentId;
+    private Long teamId;
 
     /**
-     * 0-不是，1-父标签
+     * 创建时间
      */
-    private Integer isParent;
+    private Date joinTime;
 
     /**
      * 创建时间

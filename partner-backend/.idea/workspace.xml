@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e165570-bff2-447a-a9ed-6a5f1191e80e" name="Changes" comment="delete controllerTest">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../partner-frontend/src/assets/dinosaur.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/create_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/create_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/PartnerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ving/partner/PartnerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/common/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ving/partner/common/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ving/partner/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ving/partner/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/mapper/TagMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/model/domain/Tag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/model/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ving/partner/model/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/model/domain/request/UserLoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/model/domain/request/UserRegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/service/TagService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/service/impl/TagServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ving/partner/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/TagMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ving/partner/PartnerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ving/partner/PartnerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../partner-frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../partner-frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../partner-frontend/src/plugins/myAxios.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../partner-frontend/src/plugins/myAxios.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1716857080" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$USER_HOME$/AppData/Local/Temp/whats-new.http.http" environment="test" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2bOcy8VI28qX5ZhKTXAY3jVH7Zp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaProjects/test/partner-backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;7454739e907f5595ae61d84b8547f574&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;redis&quot;,
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\partner\partner-backend\src\main\resources" />
+      <recent name="D:\JavaProjects\user-center\user-center-backend\src\main\resources" />
+      <recent name="D:\JavaProjects\user-center\src\main\resources" />
+      <recent name="D:\JavaProjects\user-center\src\main\resources\mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ving.usercenter.service" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ving.usercenter.controller" />
+      <recent name="com.ving.usercenter.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ving.usercenter.service.impl" />
+      <recent name="com.ving.usercenter.service" />
+      <recent name="com.ving.usercenter.controller" />
+      <recent name="com.ving.usercenter.config" />
+      <recent name="com.ving.usercenter.model.request" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PartnerApplication">
+    <configuration name="InsertUsers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ving.usercenter.once.InsertUsers" />
+      <module name="user-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ving.partner.once.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlgorithmUtilsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ving.partner.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ving.usercenter.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ving.partner.service.AlgorithmUtilsTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedissonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ving.partner.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ving.usercenter.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ving.partner.service.RedissonTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.testUserRegister" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="user-center" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="com.ving.partner.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ving.usercenter.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ving.partner.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="testUserRegister" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="user-center-backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="user-center-backend" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartnerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="partner" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ving.partner.PartnerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ving.partner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.InsertUsers" />
+      <item itemvalue="JUnit.UserControllerTest.testUserRegister" />
+      <item itemvalue="JUnit.AlgorithmUtilsTest.test" />
+      <item itemvalue="JUnit.RedissonTest.test" />
+      <item itemvalue="Spring Boot.PartnerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PartnerApplication" />
+        <item itemvalue="Application.InsertUsers" />
+        <item itemvalue="JUnit.AlgorithmUtilsTest.test" />
+        <item itemvalue="JUnit.RedissonTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e165570-bff2-447a-a9ed-6a5f1191e80e" name="Changes" comment="" />
+      <created>1706089825293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706089825293</updated>
+      <workItem from="1706089826429" duration="3752000" />
+      <workItem from="1706169110014" duration="1222000" />
+      <workItem from="1706254791800" duration="8662000" />
+      <workItem from="1706267567841" duration="107000" />
+      <workItem from="1706267687466" duration="70000" />
+      <workItem from="1706267770577" duration="439000" />
+      <workItem from="1706329553133" duration="16225000" />
+      <workItem from="1706357348904" duration="2607000" />
+      <workItem from="1706604559375" duration="6524000" />
+      <workItem from="1706860780301" duration="5707000" />
+      <workItem from="1706931818856" duration="6475000" />
+      <workItem from="1707012693121" duration="2008000" />
+      <workItem from="1707101750017" duration="5856000" />
+      <workItem from="1708245379431" duration="1290000" />
+      <workItem from="1708248207408" duration="2067000" />
+      <workItem from="1708486994591" duration="4787000" />
+      <workItem from="1708525117526" duration="1803000" />
+      <workItem from="1708574566552" duration="613000" />
+      <workItem from="1708594624473" duration="609000" />
+      <workItem from="1708657402852" duration="1395000" />
+      <workItem from="1708659347720" duration="635000" />
+      <workItem from="1708994043954" duration="967000" />
+      <workItem from="1709040548143" duration="14000" />
+      <workItem from="1709091972559" duration="664000" />
+      <workItem from="1709123187800" duration="1571000" />
+      <workItem from="1709131638196" duration="85000" />
+      <workItem from="1709131734807" duration="2806000" />
+      <workItem from="1709169926145" duration="17205000" />
+      <workItem from="1709296080758" duration="6000" />
+      <workItem from="1709367047575" duration="3745000" />
+      <workItem from="1709429396472" duration="3849000" />
+      <workItem from="1709528739936" duration="11458000" />
+      <workItem from="1709600986947" duration="689000" />
+      <workItem from="1709601688720" duration="2937000" />
+      <workItem from="1709610049384" duration="2353000" />
+      <workItem from="1709717974933" duration="2121000" />
+      <workItem from="1709818743793" duration="1208000" />
+      <workItem from="1709874336705" duration="1460000" />
+      <workItem from="1709982203484" duration="27000" />
+      <workItem from="1710063324681" duration="144000" />
+      <workItem from="1710340827684" duration="539000" />
+      <workItem from="1713800798696" duration="974000" />
+      <workItem from="1713835425614" duration="37000" />
+      <workItem from="1713882809385" duration="4939000" />
+      <workItem from="1713933927976" duration="303000" />
+      <workItem from="1713968960469" duration="2988000" />
+      <workItem from="1713972263688" duration="115000" />
+      <workItem from="1713972392113" duration="116000" />
+      <workItem from="1713972520561" duration="3772000" />
+      <workItem from="1714009989021" duration="680000" />
+      <workItem from="1714010967424" duration="20000" />
+      <workItem from="1714056670453" duration="3405000" />
+      <workItem from="1714091952106" duration="18000" />
+      <workItem from="1714140545679" duration="6265000" />
+      <workItem from="1714186687441" duration="22000" />
+      <workItem from="1714218481688" duration="10320000" />
+      <workItem from="1714232044569" duration="89000" />
+      <workItem from="1714232587237" duration="50000" />
+      <workItem from="1714232725524" duration="129000" />
+      <workItem from="1714483140028" duration="1501000" />
+      <workItem from="1714485191338" duration="1918000" />
+      <workItem from="1714487120862" duration="3698000" />
+      <workItem from="1714548367701" duration="33000" />
+      <workItem from="1714565454628" duration="3046000" />
+      <workItem from="1714629162529" duration="16000" />
+      <workItem from="1714651762365" duration="4585000" />
+      <workItem from="1714700361295" duration="2608000" />
+      <workItem from="1714721826654" duration="90000" />
+      <workItem from="1714748855639" duration="287000" />
+      <workItem from="1714749332742" duration="1419000" />
+      <workItem from="1714920459991" duration="2211000" />
+      <workItem from="1714924985734" duration="4807000" />
+      <workItem from="1714987520586" duration="604000" />
+      <workItem from="1715008535281" duration="4477000" />
+      <workItem from="1715070352576" duration="8000" />
+      <workItem from="1715157285924" duration="8026000" />
+      <workItem from="1715177207396" duration="15000" />
+      <workItem from="1715183818067" duration="227000" />
+      <workItem from="1715185759882" duration="37000" />
+      <workItem from="1715432358135" duration="10468000" />
+      <workItem from="1715473371739" duration="1338000" />
+      <workItem from="1715504673332" duration="346000" />
+      <workItem from="1715526125269" duration="5406000" />
+      <workItem from="1715564475631" duration="1733000" />
+      <workItem from="1715611929643" duration="6724000" />
+      <workItem from="1715676995751" duration="76000" />
+      <workItem from="1715698657986" duration="3564000" />
+      <workItem from="1715703103367" duration="472000" />
+      <workItem from="1715732933912" duration="171000" />
+      <workItem from="1715740513175" duration="10000" />
+      <workItem from="1715778940785" duration="9628000" />
+      <workItem from="1715826055382" duration="21000" />
+      <workItem from="1715871920865" duration="2936000" />
+      <workItem from="1715907361032" duration="184000" />
+      <workItem from="1715914469796" duration="1635000" />
+      <workItem from="1715930413511" duration="12000" />
+      <workItem from="1715939695305" duration="1363000" />
+      <workItem from="1715997423265" duration="14889000" />
+      <workItem from="1716083904487" duration="8214000" />
+      <workItem from="1716109046338" duration="3497000" />
+      <workItem from="1716130949721" duration="23000" />
+      <workItem from="1716277853440" duration="5717000" />
+      <workItem from="1716299782078" duration="2969000" />
+      <workItem from="1716302974292" duration="4106000" />
+      <workItem from="1716347980619" duration="19093000" />
+      <workItem from="1716389373065" duration="2553000" />
+      <workItem from="1716446611609" duration="3264000" />
+      <workItem from="1716455510347" duration="9454000" />
+      <workItem from="1716516733106" duration="7778000" />
+      <workItem from="1716600300440" duration="4940000" />
+      <workItem from="1716607369756" duration="2302000" />
+      <workItem from="1716615772402" duration="15703000" />
+      <workItem from="1716647015435" duration="5401000" />
+      <workItem from="1716708905822" duration="4042000" />
+      <workItem from="1716772423364" duration="5699000" />
+      <workItem from="1716780688652" duration="5280000" />
+      <workItem from="1716798849685" duration="9073000" />
+      <workItem from="1716819097532" duration="614000" />
+      <workItem from="1716819863892" duration="107000" />
+      <workItem from="1716821669510" duration="4050000" />
+      <workItem from="1716856160817" duration="941000" />
+      <workItem from="1716875155437" duration="698000" />
+      <workItem from="1716875989904" duration="5660000" />
+      <workItem from="1716951821697" duration="2162000" />
+      <workItem from="1716954029800" duration="1987000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1709611433823</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709611433823</updated>
+    </task>
+    <task id="LOCAL-00002" summary="delete test">
+      <created>1709611787035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709611787035</updated>
+    </task>
+    <task id="LOCAL-00003" summary="delete test">
+      <created>1709737293878</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709737293878</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update Dockfile CMD">
+      <created>1709737967283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709737967283</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update Dockfile CMD">
+      <created>1709874430135</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709874430135</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add custom exception">
+      <created>1714230590306</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714230590306</updated>
+    </task>
+    <task id="LOCAL-00007" summary="handler login error">
+      <created>1714657297541</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714657297541</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add tags 新添加tags标签引入搭子匹配系统">
+      <created>1715013999188</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715013999188</updated>
+    </task>
+    <task id="LOCAL-00009" summary="添加Swagger文档">
+      <created>1715014054535</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715014054535</updated>
+    </task>
+    <task id="LOCAL-00010" summary="自定义Swagger文档">
+      <created>1715014377088</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715014377088</updated>
+    </task>
+    <task id="LOCAL-00011" summary="resolve之前引入Swagger文档版本错误，引入knife4j">
+      <created>1715015501853</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715015501853</updated>
+    </task>
+    <task id="LOCAL-00012" summary="使用easyExcel工具，增加从excel导入对象功能">
+      <created>1715433366591</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715433366591</updated>
+    </task>
+    <task id="LOCAL-00013" summary="增加标签搜索功能">
+      <created>1715439477233</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715439477233</updated>
+    </task>
+    <task id="LOCAL-00014" summary="后端联调前端修改用户信息功能">
+      <created>1715614490485</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715614490485</updated>
+    </task>
+    <task id="LOCAL-00015" summary="增加一个定时任务批量插入功能和推荐页分页功能">
+      <created>1715700422363</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715700422363</updated>
+    </task>
+    <task id="LOCAL-00016" summary="引入分页功能的配置类">
+      <created>1715701870448</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1715701870448</updated>
+    </task>
+    <task id="LOCAL-00017" summary="引入redisTemplate配置类和缓存预热">
+      <created>1715875359842</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1715875359843</updated>
+    </task>
+    <task id="LOCAL-00018" summary="引入redisson避免开启多个定时任务">
+      <created>1716021802976</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716021802976</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add 添加组队功能增删改查&#10;add 完成创建队伍功能">
+      <created>1716306946901</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716306946901</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add 添加查询队伍列表功能（分页查询未做）">
+      <created>1716367542849</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1716367542849</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add 修改队伍信息功能">
+      <created>1716377672799</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1716377672799</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add 加入队伍功能">
+      <created>1716391838037</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1716391838037</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add 退出队伍功能&#10;add 增加匹配用户功能&#10;add 多线程并发插入假用户功能">
+      <created>1716639276635</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1716639276635</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add 加入队伍功能设置分布式锁">
+      <created>1716654485091</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1716654485091</updated>
+    </task>
+    <task id="LOCAL-00025" summary="添加跨域">
+      <created>1716798932101</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1716798932101</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add 实现前后端联调">
+      <created>1716807775008</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1716807775008</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add 实现前后端联调">
+      <created>1716823554169</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1716823554169</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add 实现前后端联调">
+      <created>1716823560628</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1716823560628</updated>
+    </task>
+    <task id="LOCAL-00029" summary="delete controllerTest">
+      <created>1716823742159</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1716823742159</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="723df9e4-c25e-4dc2-aa8a-670064f7ea0b" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="2941675d-577a-4586-8d4f-e684cd739747">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="4bbe1fd9-b6f8-422f-9a21-09188dada283">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="723df9e4-c25e-4dc2-aa8a-670064f7ea0b">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="744839ee-73dd-4b4f-b9bb-736e5f98493a">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/JavaProjects/user-center/user-center-backend" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="test" />
+    <MESSAGE value="delete test" />
+    <MESSAGE value="update Dockfile CMD" />
+    <MESSAGE value="add custom exception" />
+    <MESSAGE value="handler login error" />
+    <MESSAGE value="add tags 新添加tags标签引入搭子匹配系统" />
+    <MESSAGE value="添加Swagger文档" />
+    <MESSAGE value="自定义Swagger文档" />
+    <MESSAGE value="resolve之前引入Swagger文档版本错误，引入knife4j" />
+    <MESSAGE value="使用easyExcel工具，增加从excel导入对象功能" />
+    <MESSAGE value="增加标签搜索功能" />
+    <MESSAGE value="后端联调前端修改用户信息功能" />
+    <MESSAGE value="增加一个定时任务批量插入功能和推荐页分页功能" />
+    <MESSAGE value="引入分页功能的配置类" />
+    <MESSAGE value="引入redisTemplate配置类和缓存预热" />
+    <MESSAGE value="引入redisson避免开启多个定时任务" />
+    <MESSAGE value="add 添加组队功能增删改查&#10;add 完成创建队伍功能" />
+    <MESSAGE value="add 添加查询队伍列表功能（分页查询未做）" />
+    <MESSAGE value="add 修改队伍信息功能" />
+    <MESSAGE value="add 加入队伍功能" />
+    <MESSAGE value="add 退出队伍功能&#10;add 增加匹配用户功能&#10;add 多线程并发插入假用户功能" />
+    <MESSAGE value="add 加入队伍功能设置分布式锁" />
+    <MESSAGE value="添加跨域" />
+    <MESSAGE value="add 实现前后端联调" />
+    <MESSAGE value="delete controllerTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete controllerTest" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ving/partner/service/UserServiceTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ving/partner/service/UserServiceTest.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ving/partner/controller/UserController.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ving/partner/controller/UserController.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/user_center_backend$UserControllerTest_testUserRegister.ic" NAME="UserControllerTest.testUserRegister Coverage Results" MODIFIED="1714487975121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.ving.usercenter.controller.*</FILTER>
+    </SUITE>
+  </component>
+</project>

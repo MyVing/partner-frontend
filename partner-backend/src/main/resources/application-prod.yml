@@ -1,16 +1,26 @@
 spring:
   application:
-    name: partner-backend
+    name: partner
 # DataSource Config
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/user_center?useSSL=false
+    url: jdbc:mysql://sh-cynosdbmysql-grp-i09yebei.sql.tencentcdb.com:22683/partner?useSSL=false&serverTimezone=UTC
     username: root
-    password: 123456
+    password: Id2938456
   # session 失效时间
   session:
     timeout: 86400
+    store-type: redis
+  #redis配置（我配置了宝塔服务器上的redis）
+  redis:
+    port: 6379
+    host: 106.55.56.13
+    database: 3
+    password: 123456
 server:
+  port: 9090
   address: 0.0.0.0
+
+
 
 

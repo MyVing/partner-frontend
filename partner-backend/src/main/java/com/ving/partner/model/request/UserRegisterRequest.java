@@ -1,4 +1,4 @@
-package com.ving.partner.model.domain.request;
+package com.ving.partner.model.request;
 
 import lombok.Data;
 
