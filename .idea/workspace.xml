@@ -7,6 +7,7 @@
     <list default="true" id="cad2018f-619e-4647-b810-d8f0377cd94f" name="更改" comment="add 匹配相应后端接口">
       <change beforePath="$PROJECT_DIR$/../partner-backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../partner-backend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../partner-backend/src/main/java/com/ving/partner/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../partner-backend/src/main/java/com/ving/partner/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/JavaProjects/partner/partner-frontend/src/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -221,7 +222,7 @@
       <workItem from="1716814209034" duration="5527000" />
       <workItem from="1716958209726" duration="1366000" />
       <workItem from="1716961820231" duration="266000" />
-      <workItem from="1716962139358" duration="308000" />
+      <workItem from="1716962139358" duration="1011000" />
     </task>
     <task id="LOCAL-00001" summary="双星伙伴匹配系统 第一次提交">
       <option name="closed" value="true" />
