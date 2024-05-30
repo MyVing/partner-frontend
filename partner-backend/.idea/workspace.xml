@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2e165570-bff2-447a-a9ed-6a5f1191e80e" name="Changes" comment="update Dockerfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ving/partner/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/controller/TeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ving/partner/controller/TeamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ving/partner/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ving/partner/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../partner-frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../partner-frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../partner-frontend/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../partner-frontend/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../partner-frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../partner-frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../partner-frontend/src/plugins/myAxios.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../partner-frontend/src/plugins/myAxios.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +96,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JavaProjects/test/partner-backend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaProjects/user-center/user-center-backend&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -410,7 +414,8 @@
       <workItem from="1716951821697" duration="2162000" />
       <workItem from="1716954029800" duration="3852000" />
       <workItem from="1716959986831" duration="411000" />
-      <workItem from="1716960635595" duration="526000" />
+      <workItem from="1716960635595" duration="4842000" />
+      <workItem from="1717037905971" duration="1324000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1709611433823</created>
@@ -781,12 +786,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ving/partner/controller/UserController.java</url>
-          <line>87</line>
+          <line>88</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ving/partner/controller/UserController.java</url>
-          <line>86</line>
+          <line>87</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
