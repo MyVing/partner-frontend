@@ -18,5 +18,17 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="0@106.55.56.13" uuid="43e8af9c-a04c-4dbf-a7f5-6d4648145653">
+      <database-info product="Redis Standalone" version="7.2.4" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.5" dbms="REDIS" exact-version="7.2.4" exact-driver-version="1.5" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
   </component>
 </project>
