@@ -5,7 +5,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://sh-cynosdbmysql-grp-i09yebei.sql.tencentcdb.com:22683/partner?useSSL=false&serverTimezone=UTC
-    username: root
+    username: partner
     password: Id2938456
   # session 失效时间
   session:
