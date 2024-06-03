@@ -3,7 +3,7 @@ import axios, {AxiosInstance} from "axios";
 const isDev = process.env.NODE_ENV === 'development';
 
 const myAxios: AxiosInstance = axios.create({
-    baseURL: isDev ? 'http://localhost:9090/api' : 'https://partner-backend.ving.work',
+    baseURL: isDev ? 'http://localhost:9090/api' : 'https://partner-backend-105399-6-1324709345.sh.run.tcloudbase.com',
 });
 
 myAxios.defaults.withCredentials = true; // 配置为true
