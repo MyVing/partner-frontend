@@ -1,0 +1,6 @@
+com\ving\partner\partnerApplicationTests.class
+com\ving\partner\service\InsertUserTest.class
+com\ving\partner\service\UserServiceTest.class
+com\ving\partner\service\AlgorithmUtilsTest.class
+com\ving\partner\service\RedissonTest.class
+com\ving\partner\service\RedisTest.class
